@@ -72,9 +72,9 @@
             "arch": "x64",
             "platform" : "win32",
             "versions": [
-                "1.16.*",
                 "1.17.*",
-                "1.18.*"
+                "1.18.*",
+                "1.19.*"
             ],
             "default": "1.17.*"
         }
@@ -125,7 +125,7 @@
             "name": "az",
             "url" : "https://raw.githubusercontent.com/Azure/az-ps-module-versions/main/versions-manifest.json",
             "versions": [
-                "7.3.2"
+                "7.5.0"
             ],
             "zip_versions": [
                 "1.0.0",
@@ -180,12 +180,13 @@
         "additional_tools": [
             "cmake;3.10.2.4988404",
             "cmake;3.18.1",
+            "cmake;3.22.1",
             "patcher;v4"
         ],
         "ndk": {
-            "default": "23",
+            "default": "25",
             "versions": [
-                "21", "23", "24"
+                "23", "24", "25"
             ]
         }
     },
@@ -478,7 +479,7 @@
         "version": "8.1"
     },
     "llvm": {
-        "version": "13"
+        "version": "14"
     },
     "postgresql": {
         "version": "14"
